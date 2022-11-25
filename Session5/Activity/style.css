@@ -1,0 +1,72 @@
+body {background-color:skyblue;}
+
+nav {
+    background-color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+div {
+    display: inline;
+    margin-left: 85%;
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#landing {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h3 {
+word-spacing: 10px
+}
+
+#mern-learning-list {
+    list-style: none;
+    
+}
+
+h2 {
+    display: inline-block;
+}
+#register {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    background-color: white;
+    border: 2px solid black;
+    margin: 450px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    margin:30px;
+
+}
+
+label {
+}
+
+button {
+    background-color: red;
+    border-radius: 35%;
+}
