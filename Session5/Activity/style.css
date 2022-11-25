@@ -1,9 +1,21 @@
-body {background-color:skyblue;}
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    display: inline-block;
+}
 
 nav {
     background-color: white;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -20,28 +32,25 @@ img {
     width: 250px;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 #landing {
     text-align: center;
+    height: 600px;
     font-family: 'Courier New', Courier, monospace
 }
 
 h3 {
-word-spacing: 10px
+    word-spacing: 10px
 }
 
 #mern-learning-list {
     list-style: none;
-    
+
 }
 
-h2 {
-    display: inline-block;
-}
+
+
 #register {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -50,20 +59,18 @@ h2 {
 form {
     background-color: white;
     border: 2px solid black;
-    margin: 450px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 10px;
-    display: inline-block;
+    margin: 10px auto;
+    padding: 40px;
+    width: 20%;
     text-align: center;
 }
 
+label,
 input {
-    margin:30px;
-
-}
-
-label {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px 0;
 }
 
 button {
